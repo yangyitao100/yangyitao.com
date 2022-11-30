@@ -75,133 +75,133 @@ export default defineUserConfig({
           text: '第01章 课程介绍',
           children: ['/react18/README.md'],
           link: '/react18/README.md'
-        },
-        {
-          collapsible: true,
-          text: '第02章 解放思想',
-          children: [
-            '/react18/01/introduction.md',
-            '/react18/01/源码观.md',
-            '/react18/01/React是什么.md',
-            '/react18/01/React架构演进过程.md',
-            '/react18/01/数据结构与算法.md',
-            '/react18/01/React18源码学习方法.md',
-          ],
-          link:'/react18/01/introduction.md'
-        },
-        {
-          collapsible: true,
-          text: '第03章 [老架构]初始化渲染',
-          children: [
-            '/react18/03/introduction.md'
-          ],
-          link:'/react18/03/introduction.md'
-        },
-        {
-          collapsible: true,
-          text: '第04章 [老架构]函数组件与类组件',
-          children: [
-            '/react18/04/introduction.md',
-          ],
-          link:'/react18/04/introduction.md'
-        },
-        {
-          collapsible: true,
-          text: '第05章 [老架构]DOM DIFF',
-          children: [
-            '/react18/05/introduction.md',
-          ],
-          link:'/react18/05/introduction.md'
-        },
-        {
-          collapsible: true,
-          text: '第06章 [老架构]类的生命周期',
-          children: [
-            '/react18/06/introduction.md',
-          ],
-          link:'/react18/06/introduction.md'
-        },
-        {
-          collapsible: true,
-          text: '第07章 [老架构]性能优化',
-          children: [
-            '/react18/07/introduction.md',
-          ],
-          link:'/react18/07/introduction.md'
-        },
-        {
-          collapsible: true,
-          text: '第08章 [老架构]Hooks',
-          children: [
-            '/react18/08/introduction.md',
-          ],
-          link:'/react18/08/introduction.md'
-        },
-        {
-          collapsible: true,
-          text: '第09章 [Fiber架构]设计理念',
-          children: [
-            '/react18/09/introduction.md',
-          ],
-          link:'/react18/09/introduction.md'
-        },
-        {
-          collapsible: true,
-          text: '第10章 [Fiber架构]初始化渲染',
-          children: [
-            '/react18/10/introduction.md',
-          ],
-          link:'/react18/10/introduction.md'
-        },
-        {
-          collapsible: true,
-          text: '第11章 [Fiber架构]事件合成',
-          children: [
-            '/react18/11/introduction.md',
-          ],
-          link:'/react18/11/introduction.md'
-        },
-        {
-          collapsible: true,
-          text: '第12章 [Fiber架构]更新流程',
-          children: [
-            '/react18/12/introduction.md',
-          ],
-          link:'/react18/12/introduction.md'
-        },
-
-        {
-          collapsible: true,
-          text: '第13章 [Fiber架构]DOM DIFF',
-          children: [
-            '/react18/13/introduction.md',
-          ],
-          link:'/react18/13/introduction.md'
-        },
-        {
-          collapsible: true,
-          text: '第14章 [Fiber架构]Hooks',
-          children: [
-            '/react18/14/introduction.md',
-          ],
-          link:'/react18/14/introduction.md'
-        },
-        {
-          collapsible: true,
-          text: '第15章 [Fiber架构]调度机制',
-          children: [
-            '/react18/15/introduction.md',
-          ],
-          link:'/react18/15/introduction.md'
-        },
-        {
-          collapsible: true,
-          text: '第16章 [Fiber架构]lane模型',
-          children: [
-            '/react18/16/introduction.md',
-          ],
-          link:'/react18/16/introduction.md'
         }
+        // {
+        //   collapsible: true,
+        //   text: '第02章 解放思想',
+        //   children: [
+        //     '/react18/01/introduction.md',
+        //     '/react18/01/源码观.md',
+        //     '/react18/01/React是什么.md',
+        //     '/react18/01/React架构演进过程.md',
+        //     '/react18/01/数据结构与算法.md',
+        //     '/react18/01/React18源码学习方法.md',
+        //   ],
+        //   link:'/react18/01/introduction.md'
+        // },
+        // {
+        //   collapsible: true,
+        //   text: '第03章 [老架构]初始化渲染',
+        //   children: [
+        //     '/react18/03/introduction.md'
+        //   ],
+        //   link:'/react18/03/introduction.md'
+        // },
+        // {
+        //   collapsible: true,
+        //   text: '第04章 [老架构]函数组件与类组件',
+        //   children: [
+        //     '/react18/04/introduction.md',
+        //   ],
+        //   link:'/react18/04/introduction.md'
+        // },
+        // {
+        //   collapsible: true,
+        //   text: '第05章 [老架构]DOM DIFF',
+        //   children: [
+        //     '/react18/05/introduction.md',
+        //   ],
+        //   link:'/react18/05/introduction.md'
+        // },
+        // {
+        //   collapsible: true,
+        //   text: '第06章 [老架构]类的生命周期',
+        //   children: [
+        //     '/react18/06/introduction.md',
+        //   ],
+        //   link:'/react18/06/introduction.md'
+        // },
+        // {
+        //   collapsible: true,
+        //   text: '第07章 [老架构]性能优化',
+        //   children: [
+        //     '/react18/07/introduction.md',
+        //   ],
+        //   link:'/react18/07/introduction.md'
+        // },
+        // {
+        //   collapsible: true,
+        //   text: '第08章 [老架构]Hooks',
+        //   children: [
+        //     '/react18/08/introduction.md',
+        //   ],
+        //   link:'/react18/08/introduction.md'
+        // },
+        // {
+        //   collapsible: true,
+        //   text: '第09章 [Fiber架构]设计理念',
+        //   children: [
+        //     '/react18/09/introduction.md',
+        //   ],
+        //   link:'/react18/09/introduction.md'
+        // },
+        // {
+        //   collapsible: true,
+        //   text: '第10章 [Fiber架构]初始化渲染',
+        //   children: [
+        //     '/react18/10/introduction.md',
+        //   ],
+        //   link:'/react18/10/introduction.md'
+        // },
+        // {
+        //   collapsible: true,
+        //   text: '第11章 [Fiber架构]事件合成',
+        //   children: [
+        //     '/react18/11/introduction.md',
+        //   ],
+        //   link:'/react18/11/introduction.md'
+        // },
+        // {
+        //   collapsible: true,
+        //   text: '第12章 [Fiber架构]更新流程',
+        //   children: [
+        //     '/react18/12/introduction.md',
+        //   ],
+        //   link:'/react18/12/introduction.md'
+        // },
+
+        // {
+        //   collapsible: true,
+        //   text: '第13章 [Fiber架构]DOM DIFF',
+        //   children: [
+        //     '/react18/13/introduction.md',
+        //   ],
+        //   link:'/react18/13/introduction.md'
+        // },
+        // {
+        //   collapsible: true,
+        //   text: '第14章 [Fiber架构]Hooks',
+        //   children: [
+        //     '/react18/14/introduction.md',
+        //   ],
+        //   link:'/react18/14/introduction.md'
+        // },
+        // {
+        //   collapsible: true,
+        //   text: '第15章 [Fiber架构]调度机制',
+        //   children: [
+        //     '/react18/15/introduction.md',
+        //   ],
+        //   link:'/react18/15/introduction.md'
+        // },
+        // {
+        //   collapsible: true,
+        //   text: '第16章 [Fiber架构]lane模型',
+        //   children: [
+        //     '/react18/16/introduction.md',
+        //   ],
+        //   link:'/react18/16/introduction.md'
+        // }
       ],
       // '/vue3/': [
       //   {
