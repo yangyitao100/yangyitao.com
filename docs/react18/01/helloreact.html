@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>Test</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <!-- Don't use this in production: -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <style>
+    #content{
+        font-size:22px;
+        border: 1px solid gray;
+        cursor: pointer;
+        padding: 6px 10px;
+        display: inline-block;
+        border-radius: 10px;
+    }
+  </style>
+  <body>
+    <div id="root"></div>
+    <script type="text/babel">
+      function MyFunctionComponent() {
+        let [count, setCount] = React.useState(0)
+        return <div id="content" onClick={()=>setCount(++count)}>Click Me, Count: {count}</div>
+      }
+
+      const container = document.getElementById('root');
+      const root = ReactDOM.createRoot(container);
+      root.render(<MyFunctionComponent />);
+
+    </script>
+    <!--
+      Note: this page is a great way to try React but it's not suitable for production.
+      It slowly compiles JSX with Babel in the browser and uses a large development build of React.
+    -->
+  </body>
+</html>

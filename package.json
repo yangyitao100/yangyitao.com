@@ -1,0 +1,19 @@
+{
+  "name": "yangyitao.com",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Adam Yang <yangyitao100@sina.com>",
+  "license": "CC-BY-NC-ND-4.0",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-docsearch": "^2.0.0-beta.53",
+    "vuepress": "^2.0.0-beta.53",
+    "vuepress-plugin-comment2": "^2.0.0-beta.116"
+  },
+  "dependencies": {
+    "@vuepress/plugin-search": "^2.0.0-beta.53"
+  }
+}

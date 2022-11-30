@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Test</title>
+    </head>
+    <body>
+        <div id="root">
+            <div id="content" onclick="changeText()">Click Me, Count: 0</div>
+        </div>
+    </body>
+    <style>
+        #content{
+            font-size:22px;
+            border: 1px solid gray;
+            cursor: pointer;
+            padding: 6px 10px;
+            display: inline-block;
+            border-radius: 10px;
+        }
+    </style>
+    <script lang="javascript">
+        let count = 0
+        function changeText(){
+            count ++
+            document.getElementById('content').innerText = "Click Me, Count: " + count
+        }
+    </script>
+</html>
