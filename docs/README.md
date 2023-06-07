@@ -1,8 +1,8 @@
 ---
 home: true
 contributors: false
-heroText: '杨艺韬的官方网站'
-title: '首页'
+heroText: 'www.yangyitao.com'
+title: '杨艺韬'
 tagline: '专注于原理源码，深入技术本质'
 #heroImage: /images/daVinci.jpg
 footerHtml: true,
@@ -14,12 +14,12 @@ footer: '<div style="padding:40px 0px 60px 0px; min-width: 266px;text-align:cent
 ---
 <!-- # 站点介绍 -->
 ## 关于作者
-**杨艺韬**，一名软件开发者，2012年入行，有些 **Web前端、后端、客户端** 的实践经验。平时喜欢探索技术上的一些原理并通过文字的方式记录下来，对自己颇为有益，所以决定逐步将这些内容整理成册并分享到这里，希望对大家有所帮助。
+**杨艺韬**，资深架构师，12年工作经验，曾担任研发经理、创业团队技术负责人。负责过支撑数十亿交易额的业务系统开发，有丰富的全栈开发经验，同时精通前端、后端两大方向。长期专注于原理源码的研究，兼备技术广度与深度。
 
 ## 内容规划
 ### 关于Web前端的分享
 首先以源码剖析为主，比如`React18源码`、`Vue3源码`、`Vite源码`等等，然后分享成体系的技术方案，比如`性能优化`、`组件库`、`微前端`、`低代码`、`音视频`、`IM`等等，最后是对基础知识的梳理，比如`JavaScript`、`TypeScript`、`Nodejs`、`CSS`等等。
-### 关于非前端技术的分享
+### 关于后端技术的分享
 待Web前端核心知识分享完毕，再规划相关内容。
 ### 联系方式
 #### 微信公众号：**杨艺韬**
@@ -33,7 +33,7 @@ footer: '<div style="padding:40px 0px 60px 0px; min-width: 266px;text-align:cent
 <br/>
 
 #### 个人微信号：**yangyitao100**
-注: 添加个人微信，可以进高质量技术交流群，一般每天会抽时间处理添加好友请求，最迟7天。
+注: 添加个人微信，可以进高质量技术交流群，一般每天会抽时间处理添加好友请求。
 
 <img src="https://www.yangyitao.com/images/wechat.jpeg" style="width:300px;border:1px solid #22272e;border-radius:6px"/>
 <br/>
