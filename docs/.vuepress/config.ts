@@ -165,12 +165,13 @@ export default defineUserConfig({
           text: '第06章 原始版-性能优化相关特性',
           children: [
             '/react18/06原始版-性能优化相关特性/01.本章介绍.md',
-            // '/react18/06原始版-性能优化相关特性/02.PureComponent应用案例.md',
-            // '/react18/06原始版-性能优化相关特性/03.PureComponent源码实现.md',
-            // '/react18/06原始版-性能优化相关特性/04.memo应用案例.md',
-            // '/react18/06原始版-性能优化相关特性/05.memo源码实现.md',
-            // '/react18/06原始版-性能优化相关特性/06.调试PureComponent及memo相关的代码.md',
-            // '/react18/06原始版-性能优化相关特性/07.思考题及解答.md'
+            '/react18/06原始版-性能优化相关特性/02.PureComponent应用案例.md',
+            '/react18/06原始版-性能优化相关特性/03.PureComponent源码实现.md',
+            '/react18/06原始版-性能优化相关特性/04.memo应用案例.md',
+            '/react18/06原始版-性能优化相关特性/05.memo源码实现.md',
+            '/react18/06原始版-性能优化相关特性/06.调试PureComponent及memo相关的代码.md',
+            // '/react18/06原始版-性能优化相关特性/07.思考题及解答.md',
+            // '/react18/06原始版-性能优化相关特性/08.本章小结.md'
           ],
           link:'/react18/06原始版-性能优化相关特性/01.本章介绍.md'
         },
@@ -179,19 +180,20 @@ export default defineUserConfig({
           text: '第07章 原始版-Hooks',
           children: [
             '/react18/07原始版-Hooks/01.本章介绍.md',
-            // '/react18/07原始版-Hooks/02.Hooks存在的意义.md',
-            // '/react18/07原始版-Hooks/03.useState应用案例.md',
-            // '/react18/07原始版-Hooks/04.useState源码实现.md',
-            // '/react18/07原始版-Hooks/05.useReducer应用案例.md',
-            // '/react18/07原始版-Hooks/06.useReducer源码实现.md',
-            // '/react18/07原始版-Hooks/07.useEffect及useLayoutEffect应用案例.md',
-            // '/react18/07原始版-Hooks/08.useEffect及useLayoutEffect源码实现.md',
-            // '/react18/07原始版-Hooks/09.useRef应用案例及源码实现.md',
-            // '/react18/07原始版-Hooks/10.useImperativeHandle应用案例及源码实现.md',
-            // '/react18/07原始版-Hooks/11.useMemo及useCallback应用案例.md',
-            // '/react18/07原始版-Hooks/12.useMemo及useCallback源码实现.md',
-            // '/react18/07原始版-Hooks/13.Hooks相关源码调试.md',
-            // '/react18/07原始版-Hooks/14.思考题及解答.md'
+            '/react18/07原始版-Hooks/02.Hooks存在的意义.md',
+            '/react18/07原始版-Hooks/03.useState应用案例.md',
+            '/react18/07原始版-Hooks/04.useState源码实现.md',
+            '/react18/07原始版-Hooks/05.useReducer应用案例.md',
+            '/react18/07原始版-Hooks/06.useReducer源码实现.md',
+            '/react18/07原始版-Hooks/07.useEffect及useLayoutEffect应用案例.md',
+            '/react18/07原始版-Hooks/08.useEffect及useLayoutEffect源码实现.md',
+            '/react18/07原始版-Hooks/09.useRef应用案例及源码实现.md',
+            '/react18/07原始版-Hooks/10.useImperativeHandle应用案例及源码实现.md',
+            '/react18/07原始版-Hooks/11.useMemo及useCallback应用案例.md',
+            '/react18/07原始版-Hooks/12.useMemo及useCallback源码实现.md',
+            '/react18/07原始版-Hooks/13.Hooks相关源码调试.md',
+            '/react18/07原始版-Hooks/14.思考题及解答.md',
+            // '/react18/07原始版-Hooks/15.本章小结.md'
           ],
           link:'/react18/07原始版-Hooks/01.本章介绍.md'
         },
@@ -200,13 +202,14 @@ export default defineUserConfig({
           text: '第08章 [Fiber架构]核心概念和设计思想',
           children: [
             '/react18/08Fiber架构理论体系/01.本章介绍.md',
-            // '/react18/08Fiber架构理论体系/02.为什么需要Fiber架构.md',
-            // '/react18/08Fiber架构理论体系/03.Fiber架构是什么.md',
-            // '/react18/08Fiber架构理论体系/04.Fiber是什么.md',
-            // '/react18/08Fiber架构理论体系/05.双缓冲策略.md',
-            // '/react18/08Fiber架构理论体系/06.什么是工作循环.md',
-            // '/react18/08Fiber架构理论体系/07.什么是并发模式.md',
-            // '/react18/08Fiber架构理论体系/08.思考题及解答.md'
+            '/react18/08Fiber架构理论体系/02.为什么需要Fiber架构.md',
+            '/react18/08Fiber架构理论体系/03.Fiber架构是什么.md',
+            '/react18/08Fiber架构理论体系/04.Fiber是什么.md',
+            '/react18/08Fiber架构理论体系/05.双缓冲策略.md',
+            '/react18/08Fiber架构理论体系/06.什么是工作循环.md',
+            '/react18/08Fiber架构理论体系/07.什么是并发模式.md',
+            '/react18/08Fiber架构理论体系/08.思考题及解答.md',
+            // '/react18/08Fiber架构理论体系/09.小结.md',
           ],
           link:'/react18/08Fiber架构理论体系/01.本章介绍.md'
         },
@@ -214,7 +217,17 @@ export default defineUserConfig({
           collapsible: true,
           text: '第9章 [Fiber架构]初始化渲染',
           children: [
-            '/react18/09Fiber架构-初始化渲染/01.本章介绍.md'
+            '/react18/09Fiber架构-初始化渲染/01.本章介绍.md',
+            '/react18/09Fiber架构-初始化渲染/02.环境准备.md',
+            '/react18/09Fiber架构-初始化渲染/03.jsx代码实现.md',
+            '/react18/09Fiber架构-初始化渲染/04.createRoot.md',
+            '/react18/09Fiber架构-初始化渲染/05.render函数的阶段划分.md',
+            '/react18/09Fiber架构-初始化渲染/06.beginWork.md',
+            '/react18/09Fiber架构-初始化渲染/07.completeWork.md',
+            '/react18/09Fiber架构-初始化渲染/08.commitWork.md',
+            '/react18/09Fiber架构-初始化渲染/09.代码调试.md',
+            '/react18/09Fiber架构-初始化渲染/10.思考题.md',
+            // '/react18/09Fiber架构-初始化渲染/11.小结.md'
           ],
           link:'/react18/09Fiber架构-初始化渲染/01.本章介绍.md'
         },
