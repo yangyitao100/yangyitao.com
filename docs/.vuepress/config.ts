@@ -301,12 +301,12 @@ export default defineUserConfig({
     }
   }),
   plugins: [
-    // commentPlugin({
-    //   provider: "Giscus",
-    //   repo: "yangyitao100/yangyitao.com",
-    //   repoId: "R_kgDOIVN2oQ",
-    //   category: "Announcements",
-    //   categoryId: "DIC_kwDOIVN2oc4CSSNs"
-    // })
+    commentPlugin({
+      provider: "Giscus",
+      repo: "yangyitao100/yangyitao.com",
+      repoId: "R_kgDOIVN2oQ",
+      category: "Announcements",
+      categoryId: "DIC_kwDOIVN2oc4CSSNs"
+    })
   ],
 })

@@ -14,6 +14,7 @@
     "vuepress-plugin-comment2": "^2.0.0-beta.116"
   },
   "dependencies": {
-    "@vuepress/plugin-search": "^2.0.0-beta.53"
+    "@vuepress/plugin-search": "^2.0.0-beta.53",
+    "giscus": "^1.2.8"
   }
 }
