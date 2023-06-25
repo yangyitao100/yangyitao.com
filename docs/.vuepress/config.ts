@@ -317,9 +317,25 @@ export default defineUserConfig({
     commentPlugin({
       provider: "Giscus",
       repo: "yangyitao100/yangyitao.com",
-      repoId: "R_kgDOIVN2oQ",
+      repoId: "R_kgDOIhz4Dw",
       category: "Announcements",
-      categoryId: "DIC_kwDOIVN2oc4CSSNs"
+      categoryId: "DIC_kwDOIhz4D84CXc7D"
     })
   ],
 })
+
+// <script src="https://giscus.app/client.js"
+//         data-repo="yangyitao100/yangyitao.com"
+//         data-repo-id="R_kgDOIhz4Dw"
+//         data-category="Announcements"
+//         data-category-id="DIC_kwDOIhz4D84CXc7D"
+//         data-mapping="pathname"
+//         data-strict="0"
+//         data-reactions-enabled="1"
+//         data-emit-metadata="0"
+//         data-input-position="top"
+//         data-theme="light"
+//         data-lang="zh-CN"
+//         crossorigin="anonymous"
+//         async>
+// </script>
