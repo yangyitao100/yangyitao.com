@@ -226,7 +226,8 @@ export default defineUserConfig({
             '/react18/09Fiber架构-初始化渲染/07.completeWork.md',
             '/react18/09Fiber架构-初始化渲染/08.commitWork.md',
             '/react18/09Fiber架构-初始化渲染/09.代码调试.md',
-            '/react18/09Fiber架构-初始化渲染/10.思考题.md',
+            '/react18/09Fiber架构-初始化渲染/10.函数组件的初始化.md',
+            '/react18/09Fiber架构-初始化渲染/11.思考题.md',
             // '/react18/09Fiber架构-初始化渲染/11.小结.md'
           ],
           link:'/react18/09Fiber架构-初始化渲染/01.本章介绍.md'
