@@ -237,6 +237,15 @@ export default defineUserConfig({
           text: '第10章 [Fiber架构]合成事件系统',
           children: [
             '/react18/10Fiber架构-合成事件系统/01.本章介绍.md',
+            '/react18/10Fiber架构-合成事件系统/02.事件系统实现思路分析.md',
+            '/react18/10Fiber架构-合成事件系统/03.事件名注册.md',
+            '/react18/10Fiber架构-合成事件系统/04.注册监听事件.md',
+            '/react18/10Fiber架构-合成事件系统/05.派发事件的主要逻辑.md',
+            '/react18/10Fiber架构-合成事件系统/06.收集注册的函数.md',
+            '/react18/10Fiber架构-合成事件系统/07.合成事件.md',
+            '/react18/10Fiber架构-合成事件系统/08.注册事件的回调.md',
+            '/react18/10Fiber架构-合成事件系统/09.代码调试.md',
+            '/react18/10Fiber架构-合成事件系统/10.思考题.md',
           ],
           link:'/react18/10Fiber架构-合成事件系统/01.本章介绍.md'
         },
