@@ -254,6 +254,10 @@ export default defineUserConfig({
           text: '第11章 [Fiber架构]组件更新',
           children: [
             '/react18/11Fiber架构-组件更新/01.本章介绍.md',
+            '/react18/11Fiber架构-组件更新/02.domdiff思路分析.md',
+            '/react18/11Fiber架构-组件更新/03.单节点domdiff.md',
+            '/react18/11Fiber架构-组件更新/04.多节点domdiff.md',
+            '/react18/11Fiber架构-组件更新/05.思考题.md'
           ],
           link:'/react18/11Fiber架构-组件更新/01.本章介绍.md'
         },
