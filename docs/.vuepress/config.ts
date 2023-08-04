@@ -266,6 +266,16 @@ export default defineUserConfig({
           text: '第12章 [Fiber架构]Hooks',
           children: [
             '/react18/12Fiber架构-Hooks/01.本章介绍.md',
+            '/react18/12Fiber架构-Hooks/02.useReducer挂载.md',
+            '/react18/12Fiber架构-Hooks/03.useReducer触发更新.md',
+            '/react18/12Fiber架构-Hooks/04.useReducer更新渲染1.md',
+            '/react18/12Fiber架构-Hooks/05.useReducer更新渲染2.md',
+            '/react18/12Fiber架构-Hooks/06.useState源码实现.md',
+            '/react18/12Fiber架构-Hooks/07.useEffect挂载实现.md',
+            '/react18/12Fiber架构-Hooks/08.useEffect更新实现.md',
+            '/react18/12Fiber架构-Hooks/09.useLayoutEffect源码实现.md',
+            '/react18/12Fiber架构-Hooks/10.代码调试.md',
+            '/react18/12Fiber架构-Hooks/11.思考题.md',
           ],
           link:'/react18/12Fiber架构-Hooks/01.本章介绍.md'
         },
