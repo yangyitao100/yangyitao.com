@@ -279,19 +279,9 @@ export default defineUserConfig({
           ],
           link:'/react18/12Fiber架构-Hooks/01.本章介绍.md'
         },
-        
-        
         {
           collapsible: true,
-          text: '第13章 [Fiber架构]并发模式与时间切片',
-          children: [
-            '/react18/13Fiber架构-并发模式与时间切片/01.本章介绍.md',
-          ],
-          link:'/react18/13Fiber架构-并发模式与时间切片/01.本章介绍.md'
-        },
-        {
-          collapsible: true,
-          text: '第14章 [Fiber架构]Lane模型与优先级',
+          text: '第13章 [Fiber架构]Lane模型与优先级',
           children: [
             '/react18/14Fiber架构-Lane模型与优先级/01.本章介绍.md',
           ],
@@ -299,20 +289,22 @@ export default defineUserConfig({
         },
         {
           collapsible: true,
-          text: '第15章 [Fiber架构]调度系统',
+          text: '第14章 [Fiber架构]调度系统',
           children: [
             '/react18/15Fiber架构-调度系统/01.本章介绍.md',
           ],
           link:'/react18/15Fiber架构-调度系统/01.本章介绍.md'
         },
+        
         {
           collapsible: true,
-          text: '第16章 回顾及总结',
+          text: '第15章 [Fiber架构]并发渲染',
           children: [
-            '/react18/16回顾及总结/01.本章介绍.md',
+            '/react18/15Fiber架构-同步渲染与并发渲染/01.本章介绍.md',
           ],
-          link: '/react18/16回顾及总结/01.本章介绍.md'
-        }
+          link:'/react18/15Fiber架构-同步渲染与并发渲染/01.本章介绍.md'
+        },
+        
       ],
       // '/vue3/': [
       //   {
