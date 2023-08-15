@@ -283,17 +283,24 @@ export default defineUserConfig({
           collapsible: true,
           text: '第13章 [Fiber架构]Lane模型与优先级',
           children: [
-            '/react18/14Fiber架构-Lane模型与优先级/01.本章介绍.md',
+            '/react18/13Fiber架构-Lane模型与优先级/01.本章介绍.md',
+            '/react18/13Fiber架构-Lane模型与优先级/02.二进制基础计算.md',
+            '/react18/13Fiber架构-Lane模型与优先级/03.最小堆算法.md',
+            '/react18/13Fiber架构-Lane模型与优先级/04.React18的优先级体系.md',
           ],
-          link:'/react18/14Fiber架构-Lane模型与优先级/01.本章介绍.md'
+          link:'/react18/13Fiber架构-Lane模型与优先级/01.本章介绍.md'
         },
         {
           collapsible: true,
           text: '第14章 [Fiber架构]调度系统',
           children: [
-            '/react18/15Fiber架构-调度系统/01.本章介绍.md',
+            '/react18/14Fiber架构-调度系统/01.本章介绍.md',
+            '/react18/14Fiber架构-调度系统/02.调度核心逻辑.md',
+            '/react18/14Fiber架构-调度系统/03.任务优先级与事件优先级.md',
+            '/react18/14Fiber架构-调度系统/04.lane模型下的更新队列.md',
+            '/react18/14Fiber架构-调度系统/05.加入优先级的初始化渲染.md',
           ],
-          link:'/react18/15Fiber架构-调度系统/01.本章介绍.md'
+          link:'/react18/14Fiber架构-调度系统/01.本章介绍.md'
         },
         
         {
@@ -301,6 +308,9 @@ export default defineUserConfig({
           text: '第15章 [Fiber架构]并发渲染',
           children: [
             '/react18/15Fiber架构-同步渲染与并发渲染/01.本章介绍.md',
+            '/react18/15Fiber架构-同步渲染与并发渲染/02.同步渲染.md',
+            '/react18/15Fiber架构-同步渲染与并发渲染/03.并发渲染.md',
+            '/react18/15Fiber架构-同步渲染与并发渲染/04.思考题.md',
           ],
           link:'/react18/15Fiber架构-同步渲染与并发渲染/01.本章介绍.md'
         },
