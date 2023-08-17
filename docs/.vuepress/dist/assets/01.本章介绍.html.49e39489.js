@@ -1,0 +1,1 @@
+import{_,o as t,c as a,b as e,d as c}from"./app.d86bc82c.js";const o={},s=e("h1",{id:"_01-本章介绍",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#_01-本章介绍","aria-hidden":"true"},"#"),c(" 01.本章介绍")],-1),n=e("p",null,"本章会剖析类组件生命周期的内涵并实现相关生命周期函数。",-1),r=[s,n];function d(i,l){return t(),a("div",null,r)}const f=_(o,[["render",d],["__file","01.本章介绍.html.vue"]]);export{f as default};

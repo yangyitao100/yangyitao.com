@@ -1,0 +1,1 @@
+import{_ as t,o as _,c as a,b as e,d as c}from"./app.d86bc82c.js";const o={},r=e("h1",{id:"_11-小结",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#_11-小结","aria-hidden":"true"},"#"),c(" 11.小结")],-1),s=[r];function n(d,i){return _(),a("div",null,s)}const l=t(o,[["render",n],["__file","12.小结.html.vue"]]);export{l as default};
