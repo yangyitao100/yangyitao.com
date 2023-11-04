@@ -45,17 +45,17 @@ export default defineUserConfig({
         link: '/'
       },
       {
-        text: 'React源码研习录',
+        text: '手写React源码',
         link: '/react18/'
       },
-      // {
-      //   text: 'Vue3源码研习录',
-      //   link: '/vue3/'
-      // },
-      // {
-      //   text: '杂谈',
-      //   link: '/life/'
-      // },
+      {
+        text: 'Vue3源码剖析',
+        link: '/vue3/'
+      },
+      {
+        text: '微前端源码剖析',
+        link: '/microfe/'
+      },
       {
         text: 'github',
         link: 'https://www.github.com/yangyitao100'
@@ -316,29 +316,45 @@ export default defineUserConfig({
         },
         
       ],
-      // '/vue3/': [
-      //   {
-      //     text: 'Vue3源码研习录',
-      //     children: ['/vue3/README.md'],
-      //     link: '/vue3/README.md'
-      //   }
-      // ],
-        // {
-        //   text: '第一章 准备工作',
-        //   children: [
-        //     '/react18/first/introduction.md',
-        //     '/react18/first/JSX.md'
-        //   ],
-        //   link:'/react18/first/introduction.md'
-        // },
-        // {
-        //   text: '第er章 准备工作',
-        //   children: [
-        //     '/react18/second/Fiber.md',
-        //     '/react18/second/xx.md'
-        //   ],
-        //   link:'/react18/second/Fiber.md'
-        // }
+      '/vue3/': [
+        {
+          collapsible: false,
+          text: 'Vue3源码剖析',
+          children: [
+            '/vue3/01.代码管理策略-monorepo.md',
+            '/vue3/02.项目构建流程和源码调试方法.md',
+            '/vue3/03.Vue3响应式核心原理.md',
+            '/vue3/04.Vue3响应式系统源码实现1.md',
+            '/vue3/05.Vue3响应式系统源码实现2.md',
+            '/vue3/06.reactive、ref相关api源码实现.md',
+            '/vue3/07.故事要从createApp讲起.md',
+            '/vue3/08.虚拟Node到真实Node的路其实很长.md',
+            '/vue3/09.组件渲染和更新流程.md',
+            '/vue3/10.名动江湖的diff算法.md',
+            '/vue3/11.编译优化之Block Tree 与 PatchFlags.md',
+            '/vue3/12.编译过程介绍及分析模版AST的生成过程.md',
+            '/vue3/13.从AST到render函数（transform与代码生成）.md'
+          ],
+          link:'/vue3/README.md'
+        },
+      ],
+      '/microfe/': [
+        {
+          collapsible: false,
+          text: '微前端源码剖析',
+          children: [
+            '/microfe/01.乾坤的Js隔离机制原理剖析（快照沙箱、两种代理沙箱）.md',
+            '/microfe/02.乾坤的微应用加载流程分析(从微应用的注册到loadApp方法内部实现).md',
+            '/microfe/03.乾坤的沙箱容器分析（Js沙箱机制建立后的具体应用）.md',
+            '/microfe/04.乾坤的资源加载机制(import-html-entry的内部实现).md',
+            '/microfe/05.乾坤loadMicroApp方法实现以及数据通信机制分析.md',
+            '/microfe/06.single-spa的注册机制.md',
+            '/microfe/07.对single-spa的路由管理及微应用状态管理的分析.md',
+            '/microfe/08.single-spa中的reroute函数.md'
+          ],
+          link:'/microfe/README.md'
+        },
+      ]
     }
   }),
   plugins: [
