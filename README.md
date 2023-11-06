@@ -12,7 +12,7 @@ www.yangyitao.com
 
 ## 内容规划
 ### 最新进展
-目前已经完成`React18`、`Vue3`、`微前端`的源码解析工作。
+目前已经完成`React18`、`Vue3`、`微前端`的源码解析工作。可访问[www.yangyitao.com](www.yangyitao.com)阅读。
 
 其中`React18源码解析`有配套的视频课程：[React18内核探秘：手写React高质量源码迈向高阶开发](https://coding.imooc.com/class/650.html)
 
