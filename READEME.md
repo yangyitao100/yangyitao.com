@@ -1,3 +1,5 @@
+[中文版README](./README_cn.md)
+
 ## Website
 www.yangyitao.com
 
