@@ -16,7 +16,8 @@ www.yangyitao.com
 <br/>
 <br/>
 <!-- ![](/images/qr_code_search.png) -->
-<img src="https://www.yangyitao.com/images/qr_code_search.png" style="width: 600px;border:1px solid #22272e;border-radius:16px"/>
+![](https://www.yangyitao.com/images/qr_code_search.png)
+<!--<img src="https://www.yangyitao.com/images/qr_code_search.png" style="width: 600px;border:1px solid #22272e;border-radius:16px"/>-->
 <br/>
 <br/>
 
