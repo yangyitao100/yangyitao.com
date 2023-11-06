@@ -1,4 +1,4 @@
-[中文版README](./README_cn.md)
+[切换为中文](./README_cn.md)
 
 ## Website
 www.yangyitao.com
