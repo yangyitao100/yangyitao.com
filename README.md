@@ -12,7 +12,7 @@ www.yangyitao.com
 
 ## 内容规划
 ### 最新进展
-目前已经完成`React18`、`Vue3`、`微前端`的源码解析工作，其中`React18源码解析`有配套的视频课程[React18内核探秘：手写React高质量源码迈向高阶开发](https://coding.imooc.com/class/650.html)
+目前已经完成`React18`、`Vue3`、`微前端`的源码解析工作，其中`React18源码解析`有配套的视频课程：[React18内核探秘：手写React高质量源码迈向高阶开发](https://coding.imooc.com/class/650.html)
 
 ### 关于Web前端的分享
 首先以源码剖析为主，比如`React18源码`、`Vue3源码`、`Vite源码`等等，然后分享成体系的技术方案，比如`性能优化`、`组件库`、`微前端`、`低代码`、`音视频`、`IM`等等，最后是对基础知识的梳理，比如`JavaScript`、`TypeScript`、`Nodejs`、`CSS`等等。
