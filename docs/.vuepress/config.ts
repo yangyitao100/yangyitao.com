@@ -73,8 +73,8 @@ export default defineUserConfig({
         {
           collapsible: true,
           text: '第00章 课程介绍',
-          children: ['/react18/00导学/01.本章介绍.md'],
-          link: '/react18/00导学/01.本章介绍.md'
+          children: ['/react18/README.md'],
+          link: '/react18/README.md'
         },
         {
           collapsible: true,
