@@ -4,8 +4,8 @@ import { commentPlugin } from 'vuepress-plugin-comment2'
 
 export default defineUserConfig({
   lang: 'zh-CN',
-  title: '杨艺韬的官方网站',
-  description: '杨艺韬的官方网站, 杨艺韬, Adam Yang, react18, React, vue3, 源码, 前端',
+  title: '杨艺韬讲堂',
+  description: '杨艺韬讲堂, 杨艺韬, Adam Yang, react18, React, vue3, 源码, 前端',
   head:[['script', {}, `
   var _hmt = _hmt || [];
   (function() {

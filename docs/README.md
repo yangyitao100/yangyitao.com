@@ -6,12 +6,15 @@ title: '杨艺韬'
 tagline: '专注于原理源码，深入技术本质'
 #heroImage: /images/daVinci.jpg
 footerHtml: true,
-footer: '<div style="padding:40px 0px 60px 0px; min-width: 266px;text-align:center; position:absolute;left:50%;transform:translateX(-50%)"><a style="color:#a7a7a7; font-size:14px;min-width: 266px" href="https://beian.miit.gov.cn">蜀ICP备2022025666号-1 &copy; 杨艺韬 2022</a><br/><div style="margin:0 auto; padding:6px 0;">
-		 		<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51132102000214" style="display:inline-block;text-decoration:none;min-width:226px;)"><img src="/images/record_icon.png" style="float:left;width:16px;padding:2px 0px"/><p style="float:left;height:20px;line-height:20px;font-size:14px;margin: 0px 0px 0px 5px; color:#a7a7a7;">川公网安备 51132102000214号</p></a>
+footer: '<div style="padding:40px 0px 60px 0px; min-width: 266px;text-align:center; position:absolute;left:50%;transform:translateX(-50%)"><a style="color:#a7a7a7; font-size:14px;min-width: 266px" href="https://beian.miit.gov.cn">蜀ICP备2023033985号-3 &copy; 玄工科技（四川）有限责任公司 2022</a><br/><div style="margin:0 auto; padding:6px 0;">
+		 		
 		 	</div>
 		 
 		 </div>'
 ---
+<!--
+<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51132102000214" style="display:inline-block;text-decoration:none;min-width:226px;)"><img src="/images/record_icon.png" style="float:left;width:16px;padding:2px 0px"/><p style="float:left;height:20px;line-height:20px;font-size:14px;margin: 0px 0px 0px 5px; color:#a7a7a7;">川公网安备 51132102000214号</p></a>
+-->
 <!-- # 站点介绍 -->
 ## 关于作者
 **杨艺韬**，资深架构师，12年工作经验，曾担任研发经理、创业团队技术负责人。负责过支撑数十亿交易额的业务系统开发，有丰富的全栈开发经验，同时精通前端、后端两大方向。长期专注于原理源码的研究，兼备技术广度与深度。
