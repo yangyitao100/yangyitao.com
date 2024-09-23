@@ -1,1 +1,0 @@
-import{_,o as t,c as o,b as e,d as a}from"./app.d90d410b.js";const c={},s=e("h1",{id:"_01-本章介绍",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#_01-本章介绍","aria-hidden":"true"},"#"),a(" 01.本章介绍")],-1),n=e("p",null,"本章主要实现dom-diff的相关逻辑",-1),r=[s,n];function d(i,l){return t(),o("div",null,r)}const f=_(c,[["render",d],["__file","01.本章介绍.html.vue"]]);export{f as default};

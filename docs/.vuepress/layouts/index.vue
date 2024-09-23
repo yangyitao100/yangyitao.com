@@ -3,7 +3,7 @@
     <template #page-bottom>
       <CommentService :darkmode="isDarkMode" />
       <!-- <div style="width: 100%; text-align:center; margin-top: 60px; position: absolute; background: red">
-        <a style="color:#a7a7a7; font-size:14px;" href="https://beian.miit.gov.cn">蜀ICP备2022025666号-1 &copy;杨艺韬</a>
+        <a style="color:#a7a7a7; font-size:14px;" href="https://beian.miit.gov.cn">蜀ICP备2023033985号-3 &copy; 玄工科技（四川）有限责任公司</a>
       </div> -->
     </template>
   </ParentLayout>
